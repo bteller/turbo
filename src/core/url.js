@@ -23,7 +23,7 @@ export function getExtension(url) {
 }
 
 export function isHTML(url) {
-  return !!getExtension(url).match(/^(?:|\.(?:htm|html|xhtml|php))$/)
+  return !!getExtension(url).match(/^(?:|\.(?:htm|html|xhtml|php|aspx))$/)
 }
 
 export function isPrefixedBy(baseURL, url) {
